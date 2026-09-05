@@ -1,26 +1,298 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* granite, quarried light to dark */
+  --stone-50: #f8f7f4;
+  --stone-100: #ecebe6;
+  --stone-200: #dcd9d1;
+  --stone-300: #bfbbb1;
+  --stone-400: #8f8b83;
+  --stone-600: #514f4a;
+  --ink: #1c1c1c;
+  --basalt: #202124;
+  --basalt-2: #2b2c30;
+  --on-basalt: #f4f2ec;
+  --on-basalt-muted: #b6b3aa;
+
+  /* lapis — the only brand accent */
+  --lapis: #2747a8;
+  --lapis-deep: #1d3684;
+  --lapis-ink: #ffffff;
+
+  /* rating semantics */
+  --short: #a2261e;
+  --long: #1f5e3d;
+  --neutral: #514f4a;
+
+  --background: var(--stone-100);
+  --surface: var(--stone-50);
+  --foreground: var(--ink);
+  --muted: var(--stone-600);
+  --rule: var(--stone-200);
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-muted: var(--muted);
+  --color-faint: var(--stone-400);
+  --color-rule: var(--rule);
+  --color-basalt: var(--basalt);
+  --color-basalt-2: var(--basalt-2);
+  --color-on-basalt: var(--on-basalt);
+  --color-on-basalt-muted: var(--on-basalt-muted);
+  --color-lapis: var(--lapis);
+  --color-lapis-deep: var(--lapis-deep);
+  --color-short: var(--short);
+  --color-long: var(--long);
+  --font-serif: var(--font-newsreader);
+  --font-sans: var(--font-plex);
+  --font-display: var(--font-cinzel);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html,
+  body {
+    background: var(--background);
+    color: var(--foreground);
+  }
+
+  body {
+    font-family: var(--font-plex), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  .font-serif {
+    font-family: var(--font-newsreader), ui-serif, Georgia, "Times New Roman", serif;
+    font-optical-sizing: auto;
+  }
+
+  .font-display {
+    font-family: var(--font-cinzel), ui-serif, Georgia, serif;
+  }
+
+  a {
+    color: var(--lapis);
+    text-underline-offset: 0.18em;
+    text-decoration-thickness: 1px;
+  }
+
+  button,
+  [role="button"],
+  a,
+  summary,
+  label[for] {
+    cursor: pointer;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--lapis);
+    outline-offset: 3px;
   }
 }
 
-body {
-  background: var(--background);
+/* Basalt slab: dark surface with real grain */
+.slab {
+  position: relative;
+  background: var(--basalt);
+  color: var(--on-basalt);
+  isolation: isolate;
+}
+
+.slab::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.22;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='g'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.62 0 0 0 0 0.60 0 0 0 0 0.55 0 0 0 0.9 0'/></filter><rect width='100%' height='100%' filter='url(%23g)'/></svg>");
+  background-size: 220px 220px;
+  mix-blend-mode: soft-light;
+}
+
+.slab::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: radial-gradient(120% 80% at 80% 0%, rgba(255, 255, 255, 0.07), transparent 60%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.25));
+}
+
+
+@layer base {
+  .slab a {
+    color: inherit;
+  }
+}
+
+/* Chiselled edge under the wordmark and on slab tiles */
+.chisel {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Long-form report typography */
+.prose-report {
+  font-family: var(--font-newsreader), ui-serif, Georgia, "Times New Roman", serif;
+  font-optical-sizing: auto;
+  font-size: 1.125rem;
+  line-height: 1.7;
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  max-width: 68ch;
+}
+
+.prose-report > * + * {
+  margin-top: 1.15em;
+}
+
+.prose-report h1,
+.prose-report h2,
+.prose-report h3,
+.prose-report h4 {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  color: var(--foreground);
+  scroll-margin-top: 6rem;
+}
+
+.prose-report h1 {
+  font-size: 2rem;
+  margin-top: 2.75rem;
+  padding-top: 1.25rem;
+  border-top: 2px solid var(--ink);
+}
+
+.prose-report h2 {
+  font-size: 1.5rem;
+  margin-top: 2.25rem;
+}
+
+.prose-report h3 {
+  font-size: 1.25rem;
+  margin-top: 1.75rem;
+}
+
+.prose-report h4 {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-top: 1.4rem;
+}
+
+.prose-report p {
+  margin: 0;
+}
+
+.prose-report strong {
+  font-weight: 600;
+}
+
+.prose-report ul,
+.prose-report ol {
+  padding-left: 1.5rem;
+}
+
+.prose-report ul {
+  list-style: square;
+}
+
+.prose-report ol {
+  list-style: decimal;
+}
+
+.prose-report li + li {
+  margin-top: 0.45em;
+}
+
+.prose-report blockquote {
+  border-left: 3px solid var(--lapis);
+  padding: 0.75rem 1rem;
+  margin: 1.5rem 0;
+  color: var(--muted);
+  background: var(--surface);
+}
+
+.prose-report blockquote p + p {
+  margin-top: 0.75em;
+}
+
+.prose-report hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 2.5rem 0;
+}
+
+.prose-report code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: var(--stone-200);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  font-size: 0.875em;
+}
+
+.prose-report pre {
+  overflow-x: auto;
+  background: var(--basalt);
+  color: var(--on-basalt);
+  padding: 1rem 1.25rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.prose-report pre code {
+  background: transparent;
+  padding: 0;
+  color: inherit;
+}
+
+.prose-report img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+}
+
+.prose-report .table-scroll {
+  overflow-x: auto;
+  margin: 1.75rem 0;
+}
+
+.prose-report table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-plex), ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  background: var(--surface);
+}
+
+.prose-report thead th {
+  background: var(--basalt);
+  color: var(--on-basalt);
+  font-weight: 500;
+  text-align: left;
+}
+
+.prose-report th,
+.prose-report td {
+  border: 1px solid var(--rule);
+  padding: 0.6rem 0.8rem;
+  vertical-align: top;
+}
+
+.prose-report tbody tr:nth-child(even) td {
+  background: rgba(28, 28, 28, 0.025);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
 }

@@ -1,0 +1,51 @@
+import Link from "next/link";
+import { SITE } from "@/lib/site";
+
+const NAV = [
+  { href: "/reports", label: "Reports", mobile: true },
+  { href: "/about", label: "About", mobile: true },
+  { href: "/tips", label: "Send a tip", mobile: false },
+];
+
+export function SiteHeader() {
+  return (
+    <header className="sticky top-0 z-40 bg-background/90 backdrop-blur border-b border-rule">
+      <div className="mx-auto max-w-6xl px-5 sm:px-6 h-16 flex items-center justify-between gap-6">
+        <Link href="/" className="no-underline text-foreground flex items-center gap-3">
+          <Wordmark />
+        </Link>
+        <nav aria-label="Main" className="flex items-center gap-5 sm:gap-7 text-sm">
+          {NAV.map((n) => (
+            <Link
+              key={n.href}
+              href={n.href}
+              className={`text-foreground no-underline hover:underline whitespace-nowrap ${n.mobile ? "" : "hidden sm:inline"}`}
+            >
+              {n.label}
+            </Link>
+          ))}
+          <Link
+            href="/#subscribe"
+            className="hidden sm:inline-flex rounded-[4px] bg-basalt text-on-basalt px-3.5 py-1.5 no-underline hover:bg-basalt-2 transition-colors"
+          >
+            Subscribe
+          </Link>
+        </nav>
+      </div>
+    </header>
+  );
+}
+
+export function Wordmark({ light = false }: { light?: boolean }) {
+  return (
+    <span className="flex items-center gap-2.5">
+      <span
+        aria-hidden
+        className={`slab chisel inline-block h-7 w-7 rounded-[3px] ${light ? "ring-1 ring-on-basalt-muted" : ""}`}
+      />
+      <span className={`font-display text-[13px] sm:text-base tracking-[0.14em] whitespace-nowrap ${light ? "text-on-basalt" : "text-foreground"}`}>
+        {SITE.name.toUpperCase()}
+      </span>
+    </span>
+  );
+}

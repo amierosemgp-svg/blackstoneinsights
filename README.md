@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Black Stone Insights — web
 
-## Getting Started
+Forensic equity research publisher at [blackstoneinsights.io](https://blackstoneinsights.io). Next.js App Router, Tailwind 4, markdown reports.
 
-First, run the development server:
+## Run
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
+pnpm dev        # http://localhost:9050
+pnpm build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Publish a report
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Write `content/reports/<ticker>-<mon><day>-<year>.md` with YAML frontmatter (see any existing file). Required: `title`, `issuer`, `ticker`, `publicationDate`, `rating`, `summary`. Optional: `subtitle`, `exchange`, `priceTarget`, `referencePrice`, `downside`, `tags`, `bannerUrl`, `bannerAlt`, `bannerCaption`, `bannerCredit`, `pdfUrl`, `hidden`, `featured`, `heroTitle`, `heroSubtitle`.
+2. Put the issuer image in `public/banners/` and reference it with `bannerUrl`. Reports without an image get a ticker tile automatically.
+3. Set `featured: true` on the one report that should lead the homepage. If none is featured, the newest report leads.
+4. Optional PDF: `./scripts/build-report-pdf.sh <slug>` (needs pandoc, weasyprint, python3) writes `public/reports/<slug>.pdf`; set `pdfUrl` to `/reports/<slug>.pdf`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The rating string drives the report category shown in filters: anything containing "Closed" is a closed case, "NOT RATED" or "Case study" is a case study, "NEUTRAL" or "Counter" is a retrospective, everything else is an active short.
 
-## Learn More
+## Mailing list
 
-To learn more about Next.js, take a look at the following resources:
+The subscribe form posts to `NEXT_PUBLIC_SUBSCRIBE_FORM_ACTION` if set (Buttondown, Mailchimp, etc). Without it, the form opens a pre-filled email to hello@blackstoneinsights.io.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Routes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+`/` home, `/reports` filterable index, `/reports/[slug]` report, `/about`, `/tips`, `/disclaimer`, `/feed.xml` RSS, `/sitemap.xml`, `/robots.txt`. Each report also gets a generated OpenGraph image.
