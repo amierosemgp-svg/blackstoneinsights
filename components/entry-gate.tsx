@@ -2,6 +2,7 @@
 
 import { useEffect, useSyncExternalStore } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { SITE } from "@/lib/site";
 
 const STORAGE_KEY = "bsi-terms-accepted";
@@ -66,7 +67,10 @@ export function EntryGate() {
       className="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-[rgba(28,28,28,0.7)] p-0 sm:p-6"
     >
       <div className="slab chisel w-full sm:max-w-xl rounded-t-[6px] sm:rounded-[6px] p-6 sm:p-8">
-        <p className="font-display text-xs tracking-[0.2em] text-on-basalt-muted">{SITE.name}</p>
+        <p className="flex items-center gap-2.5">
+          <Image src="/logo-plate.png" alt="" aria-hidden width={28} height={28} className="h-7 w-7" />
+          <span className="font-display text-xs tracking-[0.2em] text-on-basalt-muted">{SITE.name.toUpperCase()}</span>
+        </p>
         <h2 id="gate-title" className="font-serif mt-3 text-2xl sm:text-3xl leading-tight">
           Before you read
         </h2>

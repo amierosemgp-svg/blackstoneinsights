@@ -1,4 +1,6 @@
 import { ImageResponse } from "next/og";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
 import { getReportBySlug, getReportSlugs } from "@/lib/reports";
 import { formatPublicationDate, tickerLabel } from "@/lib/format";
 import { SITE } from "@/lib/site";
@@ -16,10 +18,12 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   const report = getReportBySlug(slug);
   const title = report?.title ?? SITE.name;
   const meta = report
-    ? `${tickerLabel(report.ticker, report.exchange)}   ${formatPublicationDate(report.publicationDate)}`
+    ? `${tickerLabel(report.ticker, report.exchange)}, ${formatPublicationDate(report.publicationDate)}`
     : SITE.tagline;
   const rating = report?.rating ?? "";
   const isShort = rating.toUpperCase().startsWith("SHORT");
+  const logo = await readFile(path.join(process.cwd(), "public", "logo-plate.png"));
+  const logoSrc = `data:image/png;base64,${logo.toString("base64")}`;
 
   return new ImageResponse(
     (
@@ -37,7 +41,10 @@ export default async function Image({ params }: { params: Promise<{ slug: string
         }}
       >
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: 26, letterSpacing: 4 }}>
-          <span>{SITE.name.toUpperCase()}</span>
+          <span style={{ display: "flex", alignItems: "center", gap: 18 }}>
+            <img src={logoSrc} width={56} height={56} alt="" />
+            <span>{SITE.name.toUpperCase()}</span>
+          </span>
           {rating && (
             <span
               style={{

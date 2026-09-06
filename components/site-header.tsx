@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { SITE } from "@/lib/site";
 
 const NAV = [
@@ -39,9 +40,14 @@ export function SiteHeader() {
 export function Wordmark({ light = false }: { light?: boolean }) {
   return (
     <span className="flex items-center gap-2.5">
-      <span
+      <Image
+        src={light ? "/logo-plate.png" : "/logo.png"}
+        alt=""
         aria-hidden
-        className={`slab chisel inline-block h-7 w-7 rounded-[3px] ${light ? "ring-1 ring-on-basalt-muted" : ""}`}
+        width={32}
+        height={32}
+        className="h-8 w-8 object-contain"
+        priority
       />
       <span className={`font-display text-[13px] sm:text-base tracking-[0.14em] whitespace-nowrap ${light ? "text-on-basalt" : "text-foreground"}`}>
         {SITE.name.toUpperCase()}
