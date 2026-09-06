@@ -5,7 +5,6 @@ import { SITE } from "@/lib/site";
 const NAV = [
   { href: "/reports", label: "Reports", mobile: true },
   { href: "/about", label: "About", mobile: true },
-  { href: "/tips", label: "Send a tip", mobile: false },
 ];
 
 export function SiteHeader() {
@@ -25,12 +24,6 @@ export function SiteHeader() {
               {n.label}
             </Link>
           ))}
-          <Link
-            href="/#subscribe"
-            className="hidden sm:inline-flex rounded-[4px] bg-basalt text-on-basalt px-3.5 py-1.5 no-underline hover:bg-basalt-2 transition-colors"
-          >
-            Subscribe
-          </Link>
         </nav>
       </div>
     </header>

@@ -119,8 +119,7 @@ export default function AboutPage() {
         <h2 className="font-serif text-3xl tracking-tight">Contact</h2>
         <p className="mt-5 text-lg leading-relaxed text-muted">
           Press, issuers who wish to respond, and readers with corrections can write to{" "}
-          <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. If you have information about a listed company,{" "}
-          <Link href="/tips">send a tip</Link>.
+          <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
         </p>
       </section>
     </div>

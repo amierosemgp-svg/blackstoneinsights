@@ -19,10 +19,6 @@ pnpm build
 
 The rating string drives the report category shown in filters: anything containing "Closed" is a closed case, "NOT RATED" or "Case study" is a case study, "NEUTRAL" or "Counter" is a retrospective, everything else is an active short.
 
-## Mailing list
-
-The subscribe form posts to `NEXT_PUBLIC_SUBSCRIBE_FORM_ACTION` if set (Buttondown, Mailchimp, etc). Without it, the form opens a pre-filled email to hello@blackstoneinsights.io.
-
 ## Routes
 
-`/` home, `/reports` filterable index, `/reports/[slug]` report, `/about`, `/tips`, `/disclaimer`, `/feed.xml` RSS, `/sitemap.xml`, `/robots.txt`. Each report also gets a generated OpenGraph image.
+`/` home, `/reports` filterable index, `/reports/[slug]` report, `/about`, `/disclaimer`, `/feed.xml` RSS, `/sitemap.xml`, `/robots.txt`. Each report also gets a generated OpenGraph image.
