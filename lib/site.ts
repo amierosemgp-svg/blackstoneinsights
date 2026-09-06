@@ -6,6 +6,5 @@ export const SITE = {
     "Independent forensic equity research. Public-record investigations of listed issuers, published with sources.",
   url: "https://blackstoneinsights.io",
   email: "hello@blackstoneinsights.io",
-  twitter: "https://x.com/blackstoneinsights",
   foundedYear: 2013,
 } as const;

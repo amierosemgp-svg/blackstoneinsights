@@ -20,7 +20,6 @@ export function SiteFooter() {
             <li><Link href="/about" className="no-underline hover:underline">About and method</Link></li>
             <li><Link href="/disclaimer" className="no-underline hover:underline">Terms of Use and Disclaimer</Link></li>
             <li><a href="/feed.xml" className="no-underline hover:underline">RSS feed</a></li>
-            <li><a href={SITE.twitter} rel="noopener noreferrer" target="_blank" className="no-underline hover:underline">X (Twitter)</a></li>
             <li><a href={`mailto:${SITE.email}`} className="no-underline hover:underline">{SITE.email}</a></li>
           </ul>
         </nav>
