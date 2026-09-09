@@ -53,7 +53,7 @@ export const KIND_LABELS: Record<ReportKind, string> = {
 export function classifyRating(rating: string): ReportKind {
   const r = rating.toUpperCase();
   if (r.includes("CLOSED")) return "closed";
-  if (r.includes("CASE STUDY") || r.startsWith("NOT RATED")) return "case-study";
+  if (r.includes("CASE STUDY") || r.startsWith("NOT RATED") || r.startsWith("HIGH RISK")) return "case-study";
   if (r.startsWith("NEUTRAL") || r.includes("COUNTER")) return "retrospective";
   return "active";
 }
