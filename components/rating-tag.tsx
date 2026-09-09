@@ -7,7 +7,7 @@ interface Props {
 
 function toneFor(rating: string): "short" | "long" | "neutral" {
   const r = rating.toUpperCase();
-  if (r.startsWith("SHORT") || r.startsWith("HIGH RISK")) return "short";
+  if (r.startsWith("SHORT")) return "short";
   if (r.startsWith("LONG")) return "long";
   return "neutral";
 }

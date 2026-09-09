@@ -1,278 +1,351 @@
 ---
-title: "Zenta Group Company Limited (NASDAQ: ZTG) — Forensic Investigation Report"
-subtitle: "Nine Employees, Four Customers, One Supplier — And A +350% Melt-Up The Company Itself Couldn't Explain"
+title: "Zenta Group Company Limited (NASDAQ: ZTG) — Public-Record Due-Diligence Review"
+subtitle: "Financial Position, Corporate Governance, Capital Structure, Revenue Concentration, Related-Party Matters and Market Activity — Areas Requiring Further Due Diligence"
 issuer: "Zenta Group Company Limited"
 ticker: "ZTG"
 exchange: "NASDAQ"
 publicationDate: "2026-09-09"
-rating: "HIGH RISK — Avoid"
-referencePrice: "~US$1.02 (August 25, 2026 close)"
-pdfUrl: "/reports/ZTG-forensic-investigation-report.pdf"
-summary: "An independent forensic investigation of Zenta Group, a nine-employee Macau consulting-turned-'fintech' company that IPO'd on Nasdaq in September 2025 at US$4.00, spiked +350% in ten August 2026 sessions to US$12.25 on no disclosed news — prompting the company's own 'no news' 6-K — then collapsed 92% in six sessions to US$0.75. Public filings show ~5.75% of pre-IPO equity promised to unnamed 'consultants' days before effectiveness, ~90% of IPO net proceeds deployed within ~25 days (mostly into US$3.9M of unnamed-counterparty prepaid marketing/consultancy contracts and a growing US$1.0M deposit to a CEO-controlled entity), an auditor dismissed six weeks after the IPO, a 50-votes-per-share dual-class recap 3.5 months after listing, and a pre-authorized discretionary reverse split. Rated HIGH RISK — Avoid. No litigation, promotion evidence, or going-concern language was found; the absences are reported and temper the thesis."
-tags: ["Forensic Investigation", "Case Study", "Macau", "Cayman Islands", "Microcap IPO", "Pump Pattern", "Related Party"]
+rating: "Investor Attention Required — Areas requiring further due diligence"
+referencePrice: "~US$1.01 (August 26, 2026 close)"
+pdfUrl: "/reports/ZTG-due-diligence-review.pdf"
+summary: "An independent public-record review of Zenta Group, a nine-employee Macau consulting and financial-technology company that listed on Nasdaq in September 2025 at US$4.00. The company's own filings disclose four customers at ~96% of FY2025 revenue sourced through a single principal supplier, a prepaid contractual balance that grew from US$7,145 to ~US$4.1M with unnamed counterparties, FY2025 net income of ~US$1.0M against operating cash flow of −US$3.66M, cash of US$159,299 at March 31, 2026, a refundable US$1.02M deposit to a CEO-controlled entity for an unnamed acquisition, a 50-votes-per-share dual-class recapitalization, and an August 2026 share-price move from ~US$2.72 to US$12.25 and back to US$0.75 on no company disclosure. Each item is disclosed and may have an ordinary explanation; the review separates fact, observation, question and interpretation, reports the counter-evidence in full, and concludes that the combination warrants elevated investor due diligence — not any trading conclusion."
+tags: ["Due-Diligence Review", "Case Study", "Macau", "Cayman Islands", "Microcap IPO", "Revenue Concentration", "Related Party"]
 hidden: false
 featured: false
 ---
 
 | Key Fact | Detail |
 |---|---|
-| **Report** | Forensic Investigation — Public-Record Analysis |
+| **Report** | Public-Record Forensic & Investor Due-Diligence Review |
 | **Publication date** | September 9, 2026 |
 | **Issuer** | Zenta Group Company Limited |
 | **Ticker** | NASDAQ: ZTG (ZGM until April 14, 2026) |
-| **Domicile** | Cayman Islands (operations: Macau; ~96% of revenue from PRC-named customers) |
-| **Reference price** | ~US$1.02 (August 25, 2026 close) |
-| **52-week range** | US$0.75 – US$12.25 (both set within the same 9 trading days) |
+| **Domicile** | Cayman Islands (operations: Macau; ~96% of FY2025 revenue denominated in CNY) |
+| **Reference price** | ~US$1.01 (August 26, 2026 close) |
+| **52-week range** | US$0.75 – US$12.25 |
 | **IPO** | September 9, 2025 at US$4.00 (Cathay Securities, Inc., sole underwriter) |
-| **Estimated market cap** | ~US$12.0M (11,808,839 shares) |
-| **Industry (per filings)** | Management consulting / "fintech" (SIC 8742) |
+| **Estimated market cap** | ~US$11.9M (11,808,839 shares; August 26, 2026) |
+| **Industry (per filings)** | Management consulting / financial technology (SIC 8742) |
 | **Headcount** | 9 full-time employees (FY2025 20-F) |
-| **Rating** | **HIGH RISK — Avoid; see "Rating & Rationale"** |
+| **Rating** | **Investor Attention Required** — Areas requiring further due diligence (not a rating of the security) |
 | **SEC CIK** | 2011458 |
 
-> **Important disclaimer — read first.** This is an independent forensic investigation of Zenta Group Company Limited, assembled entirely from public records — SEC filings (EDGAR, CIK 2011458), company press releases, and third-party market data — and prepared for informational, analytical, and educational purposes only. It carries a rating of **HIGH RISK — Avoid**. It is **not** investment, legal, accounting, or tax advice, and not an offer, solicitation, or recommendation to buy, sell, hold, or short any security. Its purpose is to document, in one place, the structural, governance, disclosure, and financial patterns that, in our view, a diligent investor, counterparty, or regulator should weigh. Every transaction described was disclosed by the company itself; the analysis concerns the *economic pattern* those disclosures form, not any concealed conduct. **Nothing in this report alleges fraud or unlawful conduct by Zenta Group, its officers, its shareholders, or its counterparties.** Where the record is silent we say "not found"; where we infer, we hedge. In fairness, we record what cuts the other way too — the offering was 100% primary with no insider selling, no pre-IPO dividends, no litigation, and no promotion trail was located — and we say so plainly. In particular, no evidence ties any identified person to the August 2026 trading; the company itself has stated it knows of no undisclosed material information explaining it.
+> **Important — read first.** This document is an independent review of Zenta Group Company Limited based solely on publicly available information — SEC filings (EDGAR, CIK 2011458), company disclosures, and third-party market data. Its purpose is to set out, in one place, a set of objectively unusual financial, structural, and market characteristics; to distinguish clearly between what the public record establishes and what it does not; and to identify specific questions a sophisticated investor may reasonably wish to pursue. **It is not investment advice and not a recommendation to buy, sell, or short any security.** Throughout, we separate four levels of statement: **Fact** (what a filing or data source discloses), **Observation** (what can be seen by comparing disclosures), **Question** (what an investor may reasonably want to clarify), and **Interpretation** (our analytical assessment, identified as such). Where the record is silent we say so, rather than filling the gap by inference. **Nothing here alleges fraud, market manipulation, or unlawful conduct by the Company, its officers, its shareholders, or its counterparties**; every transaction discussed was disclosed by the Company in its own filings.
 
 ---
 
 # Executive Summary
 
-Zenta Group Company Limited is a Cayman Islands holding company for a nine-employee Macau consulting business (one leased office; three operating subsidiaries acquired as dormant shells for ~US$12,500 each) that listed on the Nasdaq Capital Market on September 9, 2025 at US$4.00 per share — a ~US$47M valuation on ~US$1.0M of net income — through sole underwriter Cathay Securities, Inc. The ticker was ZGM until it was changed to ZTG in April 2026.
+Zenta Group Company Limited is a Cayman Islands holding company for a small, Macau-based consulting and financial-technology business. It listed on the Nasdaq Capital Market on September 9, 2025 at US$4.00 per share and reported nine full-time employees in its most recent annual report. Over the review period the Company disclosed a series of transactions and structural features that are each individually permissible and disclosed, but that in combination present several areas an investor may reasonably wish to examine more closely.
 
-**The event that defines the file.** Eleven months after listing, in August 2026, the stock rose ~350% in ten sessions to an all-time high of US$12.25 (August 12) on **no disclosed news** — the company filed a "no news" 6-K on August 7 stating it was aware of no undisclosed material information — and then collapsed ~92% in six sessions to an intraday US$0.75 (August 20). It closed August 25 at US$1.02. Both the high and the low were set within the same nine trading days.
+The principal observations below are drawn from the Company's own filings. For each, we state the fact and figure, note why it may matter, and identify what the public record does not resolve.
 
-In our view the public record forms a coherent pattern, each strand evidenced in the sections that follow:
-
-1. **The operating business is four customers = 96% of revenue and 100% of receivables**, routed through one supplier whose products the company first resold, then bought.
-2. **~5.75% of pre-IPO equity was promised to unnamed "consultants"** on the eve of effectiveness.
-3. **~90% of IPO net proceeds left within ~25 days**, overwhelmingly into multi-year prepaid "marketing and consultancy" contracts with counterparties the filings never name, plus a growing seven-figure deposit to a CEO-controlled entity for an unnamed acquisition.
-4. **The auditor was dismissed six weeks after listing**, and a December 2025 recap installed 50-vote Class B super-shares and a five-year discretionary reverse-split authority.
-5. **The financials show income without cash** — FY2025 net income US$1.0M against operating cash flow of −US$3.66M.
-
-We did **not** find litigation, SEC enforcement, a Nasdaq deficiency notice, going-concern language, insider selling into the IPO, or direct promotion evidence. Those absences are reported in "What We Did Not Find" and materially temper the thesis. This is a pattern case, not a smoking-gun case; on the balance of the structural risks it documents, **we rate ZTG HIGH RISK — Avoid**.
-
----
-
-# Findings at a Glance
-
-Nine concern clusters surfaced by this investigation. Each is evidenced in the sections that follow.
-
-| # | Finding | Detail |
+| # | Observation | Detail |
 |---|---|---|
-| 01 | **A business that is a point, not a company** | Nine employees; four customers = 96% of revenue / 100% of receivables; one supplier behind the entire product line. |
-| 02 | **~5.75% of equity to unnamed consultants** | ~579,800 shares (~US$2.3M at IPO) promised to a "Consultant" and "Consulting Company" days before effectiveness; recipients never named. |
-| 03 | **~90% of net proceeds out in ~25 days** | US$3.87M of ~US$4.28M deployed Sep 5–30, 2025 — mostly into US$3.9M of unnamed-counterparty prepaid contracts. |
-| 04 | **Related-party deposit to a CEO entity** | "Good-faith deposit" to ZentoAI Company Limited (CEO-controlled) grew to US$1.02M for an unnamed acquisition target. |
-| 05 | **Income without cash** | FY2025 net income US$1.0M vs operating cash flow −US$3.66M; cash fell US$1.04M → US$159K by March 31, 2026. |
-| 06 | **Auditor swapped six weeks post-IPO** | WWC, P.C. (California) dismissed October 2025; small Malaysia-based firm installed; no reason stated, no disagreements claimed. |
-| 07 | **50-vote dual-class recap + reverse-split authority** | December 2025 EGM: CEO block → Class B @ 50 votes (~98.3% of votes on ~54% economics); 2:1–20:1 split pre-armed for 5 years. |
-| 08 | **Contract-date inversion & a 3.7× cost gap** | Client contracts predate supplier contracts by six weeks; a core intangible booked at US$192,735, later US$701,835 — unreconciled. |
-| 09 | **A +350% / −92% no-news round trip** | Ten-session melt-up to US$12.25 then −92% in six — on a ~4M-share float the issuer itself formally declined to explain. |
+| 01 | **Revenue concentration** — four customers ≈ 96% of FY2025 revenue | The FY2025 20-F concentration note reports four customers at ~96% of revenue and 100% of receivables; two customers were ~81% of H1 FY2026 revenue. High dependency and renewal risk; the durability of these relationships is not detailed. |
+| 02 | **Supplier concentration** — a single principal supplier | The prospectus describes the fintech line as originating with one supplier's products. Concentration on a single supplier bears on business continuity; the terms and substitutability are not fully described. |
+| 03 | **Business momentum** — fintech line scaled to ~96% of revenue; FY2025 profitable | The "algorithm and big data" line grew from launch in January 2024 to ~95.6% of FY2025 revenue, and the Company reported FY2025 net income of approximately US$1.0M. The rapid change in revenue mix is worth understanding; the growth and reported profitability are constructive. |
+| 04 | **Prepaid contracts** — prepaid balance ~US$4.1M | Prepaid expenses rose from US$7,145 to ~US$3.86M in FY2025, and ~US$4.14M by March 31, 2026, under 1–5 year contracts to FY2030/31. Recoverability and delivery are areas for diligence; counterparties are unnamed. |
+| 05 | **Interim results** — H1 FY2026 revenue lower; interim net loss | The most recent 6-K (August 14, 2026) reports H1 FY2026 revenue of ~US$1.15M, down ~40% year on year, and a net loss of US$777,940, versus FY2025 profitability. A single interim period; the near-term trajectory is worth monitoring. |
+| 06 | **Earnings vs cash** — profit did not convert to operating cash in FY2025 | FY2025 net income ~US$1.0M against operating cash flow of −US$3.66M. The difference warrants examination of earnings quality and working-capital dynamics. |
+| 07 | **Voting structure** — dual-class voting and large authorized capital | A December 2025 recapitalization created Class B shares at 50 votes each and increased authorized capital to 1.02B shares; a board-discretion reverse split (2:1–20:1) was authorized. Relevant to future capital-raising and minority influence. |
+| 08 | **Market activity** — rapid price rise and decline, August 2026 | The shares rose from ~US$2.72 to US$12.25 and then declined to an intraday US$0.75 within roughly three weeks, on no company disclosure identified in the record. The Company stated on August 7 it was aware of no undisclosed material information. |
+
+Several of these features are common among early-stage, founder-controlled, cross-border issuers, and the Company also presents constructive elements — full-year FY2025 profitability, a primary offering with no insider selling, and, per its filings, collected concentration receivables (see "Balanced Evidence"). Considered together, the disclosed economics and structure, in our assessment, warrant **elevated diligence and clarification on specific items — not any particular trading conclusion**. What the record does not establish is set out under "Balanced Evidence".
+
+*Sources: SEC Form 20-F (FY2025, CIK 2011458); Form 6-K (H1 FY2026, filed August 14, 2026); Form 424B4 (September 9, 2025); market data via stockanalysis.com (as of August 26, 2026).*
 
 ---
 
-# Basis of Investigation
+# Company Overview
 
-At its August 12, 2026 high, ZTG's ~11.8M shares implied a market capitalization near US$145M. In our view the public record describes a business those numbers cannot support:
+**Structure and listing.** Zenta Group Company Limited is incorporated in the Cayman Islands and operates through subsidiaries based in Macau. Its ordinary shares are listed on the Nasdaq Capital Market and began trading on September 9, 2025 following an initial public offering at US$4.00 per share. The Company reports as a foreign private issuer (FPI), filing annual reports on Form 20-F and interim disclosures on Form 6-K. The ticker was changed from "ZGM" to "ZTG" in April 2026.
 
-- nine employees in one Macau office (total FY2025 compensation US$285,067);
-- US$3.16M of revenue from four customers, sourced through one supplier, ~96% denominated in CNY;
-- US$159,299 of cash at the last reported balance-sheet date against a US$1.14M half-year operating outflow;
-- a first-half swing to a net loss with revenue down 40%.
+**Operating scale.** The FY2025 annual report states the Company had nine full-time employees and a single leased office. Its three operating subsidiaries were, per the filings, acquired as previously dormant entities for a nominal amount (approximately US$12,500 each).
 
-The −92% collapse into August 21 largely closed the price/fundamental gap. What remains forward-looking is the structural setup, and it is the reason this document exists: a stock that has now closed below US$1.00 (Aug 21: US$0.95; Aug 24: US$0.88), a five-year board-discretion reverse-split authorization already in hand, 1.02 billion authorized shares against 11.8M outstanding, a 50:1 dual-class structure that makes dilution costless to control, ~US$4.1M of prepaid contracts running to FY2030 with unnamed counterparties, a growing seven-figure deposit with a CEO-controlled entity for an unnamed acquisition, and a foreign-private-issuer regime that requires no further financials until the next annual report.
+**Business evolution.** The Company's revenue base shifted materially over a short period. In FY2023 it reported approximately US$863,000 of consulting and brokerage fees. A financial-technology line described as "algorithm and big data" services launched in January 2024 and, per the FY2025 20-F, grew to approximately 70.5% of revenue in FY2024 and 95.6% in FY2025, while the legacy consulting and brokerage lines declined toward zero.
 
-**What this investigation is, and is not.** It is a structured reading of disclosed economics against a forensic due-diligence checklist. It is not an allegation that any transaction was unlawful — each was disclosed by the company — nor a claim to know who traded the stock in August. Phrases such as "in our view," "appears consistent with," and "raises questions" denote opinion, not statements of fact.
+**Revenue sources and concentration.** The Company's disclosed revenue is concentrated among a small number of customers and is sourced substantially through a single principal supplier, with a large majority denominated in Chinese yuan (CNY). These concentration features are examined under "Revenue Quality & Business Concentration".
+
+*Sources: Form 424B4 (September 9, 2025); Form 20-F (FY2025); Form 6-K (ticker change, April 14, 2026).*
 
 ---
 
-# The IPO & the Consultant Shares
+# IPO and Use of Proceeds
 
-Offering mechanics (424B4, September 9, 2025, acc. 0001493152-25-012859; 6-Ks of September 11 and October 9, 2025):
+The Company completed its IPO in September 2025. The offering was 100% primary (the Company sold newly issued shares; no selling shareholders participated per the prospectus).
 
-| Item | Detail |
+| Item | Detail (as disclosed) |
 |---|---|
-| Total offering | 1,500,000 shares @ US$4.00 = US$6.0M gross (100% primary; priced at the bottom of the US$4–5 range) |
-| Over-allotment | 225,000 shares @ US$4.00, exercised in full, closed October 8, 2025 (+US$0.9M) |
-| Net proceeds to company | **~US$4.28M** (7% discount + 1% non-accountable allowance + ~US$1.24M expenses ≈ 21% of base gross) |
-| Underwriter | Cathay Securities, Inc. (sole; firm commitment; 12-month right of first refusal) |
-| Registration | Confidential DRS May 2024 → 5 SEC comment letters → effective September 5, 2025 |
-| Post-IPO shares | 11,808,839 (public float ~13%) |
+| Base offering | 1,500,000 shares at US$4.00 = US$6.0M gross; priced at the lower end of the US$4–5 range |
+| Over-allotment | 225,000 shares at US$4.00, exercised in full; closed October 8, 2025 (+US$0.9M) |
+| Net proceeds | ~US$4.28M after underwriting discount, non-accountable allowance, and ~US$1.24M expenses |
+| Underwriter | Cathay Securities, Inc. (sole; firm commitment) |
+| Registration | Confidential draft submitted ~May 2024; five SEC comment letters; effective September 5, 2025 |
+| Shares outstanding | 11,808,839 following the offering |
 
-Stated use of proceeds: ~40% "developing our fintech business," ~20% regional growth, ~10% brand and team, balance working capital — with management retaining "significant flexibility and discretion."
+**Stated use of proceeds.** The prospectus indicated approximately 40% toward developing the fintech business, ~20% regional growth, ~10% brand and team, with the balance to working capital, and stated that management retained "significant flexibility and discretion." The FY2025 20-F (Item 14.E) states that the proceeds used through fiscal year-end did not go, directly or indirectly, to directors, officers, 10% holders, or affiliates.
 
-**~5.75% of pre-IPO equity promised to consultants no filing names.** Prospectus footnotes disclose that on June 24 and July 2, 2024, Ione Group Company Limited — the CEO's 76%-owned vehicle and 53.04% pre-IPO holder — agreed to transfer **4% and 1% of the post-offering enlarged share capital** (together ~5.75% of pre-IPO shares, ~579,800 shares, ~US$2.3M at the IPO price) to an unnamed "Consultant" and "Consulting Company," at least one day before effectiveness, as compensation for services described as helping "generally guide" the Ione vehicle. The recipients are never named in any filing; no Schedule 13D/G or Form 3 from them exists on EDGAR. The insider lock-up covered directors, officers and 5%+ holders for six months (waivable by the underwriter); sub-5% transferees are not stated to be locked up. We make no claim about what these holders did — we note only that the free-trading supply behind a ~4M-share float is not fully accounted for by named parties.
+**The prepaid contractual balance.** The Company discloses a prepaid-expense balance that grew substantially over the period:
 
----
+- **Amount:** US$7,145 (September 30, 2024) → US$3,856,570 (September 30, 2025) → US$4,136,815 (March 31, 2026), a majority classified as non-current.
+- **Nature:** described as prepaid marketing, consultancy, and professional fees "paid upfront under contracts with terms generally ranging from one to five years," amortizing to approximately FY2030/31.
+- **Counterparties:** not named in the filings reviewed.
+- **Relative size:** at March 31, 2026 the balance was approximately 3.6× half-year revenue and materially larger than the Company's cash position.
 
-# Where The Money Went
+**Questions for investors**
 
-All figures from the company's FY2025 20-F (filed January 20, 2026) and H1 FY2026 interim 6-K (filed August 14, 2026).
+1. What services are being provided under these prepaid contracts, and by whom?
+2. How were the counterparties selected, and are any related to the Company or its insiders?
+3. What is the expected economic return or benefit to the Company?
+4. What portion of the prepaid balance has been recognized as expense to date?
+5. What evidence of delivery or performance exists at the reporting date?
+6. Are the arrangements cancellable or refundable, and on what terms?
 
-**Ninety percent in twenty-five days.** Item 14.E of the 20-F: from effectiveness (September 5, 2025) to fiscal year-end (September 30, 2025), the company used "approximately US$3.87 million" of the ~US$4.28M net proceeds. The same 20-F states none of it went directly or indirectly to directors, officers, 10% holders, or affiliates.
-
-**The prepaid balloon.** Prepaid expenses: US$7,145 (9/30/2024) → **US$3,856,570** (9/30/2025) → US$4,136,815 (3/31/2026), majority non-current, described as prepaid marketing, consultancy and professional fees "paid upfront under contracts with terms generally ranging from one to five years," amortizing to FY2030/31. The counterparties are not named anywhere in the filings. At March 31, 2026 the prepaid balance was ~3.6× half-year revenue and ~26× cash.
-
-**The related-party deposit.** A "good-faith deposit" paid to **ZentoAI Company Limited — controlled by CEO Ng Wai Ian** — "pursuant to the acquisition intention agreement for a target company" (unsecured, non-interest-bearing, refundable): US$706,694 at 9/30/2025, **US$1,020,850 at 3/31/2026**. The target is not named, no timeline is disclosed, and the August 14, 2026 subsequent-events note reports no update. The deposit is ~6.4× the company's entire cash balance on the same date. Separately, the H1 FY2025 cash-flow discussion describes US$740,941 of investing outflows as "primarily reflecting financings provided to a related party."
-
-**The result.** FY2025 net income US$1.0M against FY2025 operating cash flow of **−US$3.66M**. Cash: US$1.04M (9/30/2025) → **US$159,299 (3/31/2026)**. Management's liquidity language rests in part on "financial support from our related parties and major shareholders."
-
----
-
-# The Business: One Supplier, Four Customers, Six-Week-Early Contracts
-
-**Revenue pivoted overnight.** FY2023: US$863K of consulting/brokerage fees (top-5 customers 67%; two of the top five "controlled by a same shareholder," per the prospectus). The "algorithm and big data" fintech line launched January 2024 and was 70.5% of revenue by FY2024 and **95.6% by FY2025**. Legacy lines (investment brokerage, project research) each ran 0–4 discrete projects per year and have gone to zero or near-zero.
-
-**Resold, then bought — from the same "third-party vendor."** Per the prospectus the fintech business began by "supplying fintech products offered by our supplier, Guo Yan [Innovation Technology (Macau) Co. Ltd.]… We do not pay any fees to our supplier, and receive commission based on successful engagements." Then on August 5, 2024 the company **bought "2 fintech platforms and 6 AI models" from that same sole supplier for US$1,158,243**, initially booked as a payable; the 20-F calls the seller "a third-party vendor." The exhibit index shows the mirror pair: Client Agreements (AI and Blockchain) with Shenzhen Cloud Computing Pte Ltd dated **January 15, 2024**; Supplier Agreements (AI and Blockchain) with Guo Yan dated **February 26, 2024**. The company contracted to sell before it contracted to buy.
-
-**The customers.** FY2025 concentration note: Customer A 51% of revenue / 61% of receivables; Customers A–D together **96% of revenue and 100% of receivables**. H1 FY2026: two customers = 81% of revenue. The lead client, **"Shenzhen Cloud Computing Pte Ltd." (abbreviated "CAI")**, carries a Shenzhen name with a Singapore corporate suffix and a non-matching acronym; the others are Jiangxi Muhe Business Services, Jiangxi Zongjia Haotian Technology, and Peiyu (Shenzhen) Technology. ~96% of FY2025 revenue was CNY-denominated. The company's principal tax charge is **PRC withholding tax** (US$309,649 in FY2025) while its Macau subsidiaries accumulate tax losses (US$969,444 of NOLs, fully reserved) — a nine-person Macau company whose economics sit almost entirely in cross-border billings to a handful of PRC-named entities.
-
-**A 3.7× unreconciled cost for the core intangible.** The blockchain system cost US$212,008 (July 2025); lifetime blockchain revenue across three periods totals US$82,079, including zero in H1 FY2026. The prospectus states the company "has not historically incurred significant expenditures on in-house research and development." The December 2025 model upgrade is disclosed at **US$192,735 (MOP 1,545,000)** in the 20-F but **US$701,835 (MOP 5,665,000)** in the interim 6-K seven months later — the same upgrade, 3.7× apart, with no reconciliation.
+*Sources: Form 424B4 (September 9, 2025); Form 6-K (offering closing, September 11 and October 9, 2025); Form 20-F (FY2025), Item 14.E and prepaid-expense notes.*
 
 ---
 
-# Financial Concerns
+# Recent Interim Results
 
-Audited FY2025 (20-F, year ended September 30, 2025) and unaudited H1 FY2026 (6-K, six months ended March 31, 2026).
+The Company's most recent interim disclosure provides an updated view of its near-term operating trajectory.
 
-| US$ | FY2025 | H1 FY2026 | Note |
+- **Fact.** The Form 6-K filed August 14, 2026 reports H1 FY2026 (six months ended March 31, 2026) revenue of approximately US$1.15 million, down approximately 40% year on year, and a net loss of US$777,940 — compared with net income of approximately US$1.0 million for full-year FY2025.
+- **Observation.** The interim period reflects lower revenue and a swing from profit to loss relative to the prior full year, with professional fees a significant component of operating costs.
+- **Question.** What are the drivers of the revenue decline and the interim loss, and does management expect the trend to continue, stabilize, or reverse over the remainder of the fiscal year?
+- **Interpretation.** A single interim period is not necessarily indicative of the full-year outcome, and the Company was profitable in FY2025. The near-term revenue and earnings trajectory is, in our assessment, a matter to monitor rather than a conclusion about the business.
+
+Separately, the Company discloses a refundable, unsecured, non-interest-bearing "good-faith deposit" (US$1,020,850 at March 31, 2026) paid to ZentoAI Company Limited, an entity it identifies as controlled by the CEO, in connection with a potential acquisition; the filings do not name the target or provide a timeline, and the August 14, 2026 subsequent-events note reports no update. The arrangement is disclosed and refundable; investors may nonetheless wish to seek clarification on the target, valuation, funding, and approval process.
+
+*Sources: Form 6-K (H1 FY2026, August 14, 2026); Form 20-F (FY2025), related-party and subsequent-events notes.*
+
+---
+
+# Revenue Quality & Business Concentration
+
+The Company's reported revenue is highly concentrated among a small number of customers, and is sourced substantially through a single principal supplier. This section presents the disclosed concentration and the risks it creates, without drawing conclusions the record does not support.
+
+**Customer concentration**
+
+- **FY2025:** the largest customer represented approximately 51% of revenue and 61% of receivables; the top four customers together represented approximately 96% of revenue and 100% of receivables.
+- **H1 FY2026:** two customers represented approximately 81% of revenue.
+- **Currency and geography:** approximately 96% of FY2025 revenue was denominated in CNY; the Company's principal tax charge is PRC withholding tax (US$309,649 in FY2025), while its Macau subsidiaries accumulate tax losses. The revenue is therefore substantially cross-border in character.
+
+**Supplier concentration and business transition**
+
+The prospectus describes the fintech business as originating by supplying products offered by a single supplier on a commission basis. The Company subsequently disclosed a purchase of fintech platforms and AI models from that supplier for US$1,158,243 (August 2024). The exhibit index reflects client agreements dated January 15, 2024 and supplier agreements dated February 26, 2024.
+
+- **Fact.** Per the exhibit index, the dated client agreements precede the dated supplier agreements by approximately six weeks.
+- **Observation.** The sequence is unusual relative to a conventional resale model, in which supply arrangements typically precede or accompany customer commitments.
+- **Question.** What explains the sequencing of the agreements, and how are the supplier and customer relationships structured relative to one another?
+- **Interpretation.** The dating is a documentation feature that invites clarification. The public record reviewed does not establish that the transactions were circular or non-substantive, and we do not characterize them as such.
+
+Four customers accounted for approximately 96% of FY2025 revenue and 100% of receivables, sourced substantially through one principal supplier. The largest customer alone was ≈ 51% of FY2025 revenue; three further customers together with the largest ≈ 96%. This describes disclosed concentration; it does not imply any circular arrangement.
+
+**Why concentration matters.** Revenue concentrated in a few customers and a single supplier creates customer-dependency risk, contract-renewal risk, counterparty risk, potential revenue volatility, and working-capital sensitivity. The durability, contract length, and pricing terms of these relationships are not fully detailed in the filings reviewed, and are appropriate subjects for further diligence.
+
+*Sources: Form 20-F (FY2025), customer/supplier concentration and tax notes; Form 424B4 (September 9, 2025) and exhibit index; Form 6-K (H1 FY2026).*
+
+---
+
+# Financial Analysis
+
+Audited FY2025 (Form 20-F, year ended September 30, 2025) and unaudited H1 FY2026 (Form 6-K, six months ended March 31, 2026).
+
+| US$ | FY2025 | H1 FY2026 | Observation |
 |---|---|---|---|
-| Revenue | 3,160,000 | 1,150,000 | H1 revenue −40.4% YoY |
-| Net income / (loss) | ~1,000,000 | (777,940) | Swing to a loss |
-| Operating cash flow | (3,660,000) | (1,140,000) | Income without cash |
-| Cash (period end) | 1,040,000 | 159,299 | −85% in six months |
-| Prepaid expenses | 3,856,570 | 4,136,815 | Unnamed counterparties |
-| CEO-entity deposit | 706,694 | 1,020,850 | Unnamed target |
+| Revenue | 3,160,000 | 1,150,000 | H1 revenue ~40% lower year on year |
+| Net income / (loss) | ~1,000,000 | (777,940) | Interim swing to a loss |
+| Operating cash flow | (3,660,000) | (1,140,000) | Negative in both periods |
+| Cash (period end) | 1,040,000 | 159,299 | Declined over the six months |
+| Prepaid expenses | 3,856,570 | 4,136,815 | Non-current majority |
+| Related-party deposit | 706,694 | 1,020,850 | Refundable; target not named |
 
-**Income without cash.** The single most important financial fact: FY2025 reported net income of ~US$1.0M while operating cash flow was −US$3.66M — a ~US$4.7M gap. The reconciling items are precisely the balances above: cash paid out into multi-year prepaid contracts and a related-party deposit that sit on the balance sheet as assets rather than passing through the income statement. In H1 FY2026 the reported profit itself disappeared: a US$777,940 net loss, with professional fees alone consuming ~91% of revenue.
+The prepaid contractual balance increased from US$7,145 (September 30, 2024) to US$3.86M (September 30, 2025) and approximately US$4.14M (March 31, 2026), while cash declined from US$1.04M to US$159,299 over the same six months, and the CEO-affiliated acquisition deposit grew from US$0.71M to US$1.02M. Figures are as disclosed by the Company.
 
-By March 31, 2026 the company held US$159,299 of cash against a US$1.14M half-year operating outflow — roughly one-sixth of a single half-year's burn — while carrying US$4.1M of prepaid contracts it cannot convert back to cash and a US$1.02M deposit for an acquisition it has not named. Management's stated liquidity plan leans on "financial support from our related parties and major shareholders."
+**Earnings versus cash generation**
 
-We found no going-concern qualification in either the auditor's opinion or management's discussion — an absence we report plainly below, and one that is itself notable given the cash position.
+- **Fact.** For FY2025 the Company reported net income of approximately US$1.0M and operating cash flow of approximately −US$3.66M.
+- **Observation.** Reported profitability did not translate into positive operating cash generation during FY2025. The principal balance-sheet movements over the period are the increase in prepaid contracts and the related-party deposit, together with the decline in cash from US$1.04M to US$159,299.
+- **Question.** What are the drivers of the difference between reported earnings and operating cash flow, and what is management's liquidity plan given the current cash position relative to operating cash usage?
+- **Interpretation.** The difference between reported net income and operating cash flow warrants attention because it indicates that FY2025 earnings did not convert to operating cash. This is an earnings-quality and liquidity consideration; it does not, on the record reviewed, indicate insolvency, and management's disclosure references "financial support from our related parties and major shareholders."
 
----
+At March 31, 2026 the Company held US$159,299 of cash against a half-year operating outflow of approximately US$1.14M, while carrying approximately US$4.1M of longer-dated prepaid contracts and a US$1.02M refundable deposit. Liquidity and the recoverability of the prepaid balances are, in our assessment, the most significant near-term financial questions.
 
-# Governance & Control
-
-Within roughly three-and-a-half months of listing, the company reorganized its capital and voting structure in ways that, in our view, concentrate control and pre-arm dilution.
-
-**The December 19, 2025 recap.** The CEO-and-affiliate block of 6,367,680 shares was converted into Class B stock carrying 50 votes per share, giving it ~98.3% of aggregate voting power on ~54% of the economics, while authorized capital was raised from 50M to 1.02 billion shares and a 2:1-to-20:1 reverse split was pre-authorized at the board's sole discretion, valid five years (6-K, January 5, 2026).
-
-- **Auditor swapped six weeks after listing.** The IPO auditor WWC, P.C. (California) was dismissed ~October 24, 2025 and replaced by a Malaysia-based firm (WSJ & Partners); no reason was stated and no disagreements were claimed. The change was disclosed on time, with WWC's Exhibit 16.1 letter concurring there were no disagreements (a point we credit below).
-- **Dilution made costless to control.** 1.02 billion authorized shares against 11.8M outstanding, combined with 50:1 Class B voting, means the controlling shareholder can approve share issuance that dilutes economics without diluting control.
-- **Reverse-split authority pre-armed.** A 2:1-to-20:1 consolidation executable at the board's sole discretion through late 2030 — a standing tool that becomes directly relevant the moment a bid-price deficiency clock starts.
-- **Ticker change and late Forms 3.** The symbol was changed ZGM → ZTG in April 2026 with no stated reason; six insider Forms 3 (initial ownership statements) were filed only in March 2026, six-plus months after listing.
-- **Foreign-private-issuer opacity.** As an FPI the company files on 20-F / 6-K only — no 10-Q, insiders largely exempt from Section 16 Form 4 — and it can go until its next annual report without further audited financials.
+*Sources: Form 20-F (FY2025) statements of operations, cash flows, and balance sheet; Form 6-K (H1 FY2026, August 14, 2026).*
 
 ---
 
-# The August 2026 Price Event
+# Accounting & Disclosure Questions
 
-On a ~4.08M-share float with no analyst coverage and 0.73% short interest (daily data via Yahoo Finance / TradingView / stockanalysis.com):
+One item in the reviewed filings is reported at materially different amounts in two documents.
 
-- **Drift:** US$3.69 (September 2025) → ~US$1.09 intraday (April 7, 2026).
-- **June 8–10, 2026:** volume spiked to 12.4M shares (vs typical <50K), intraday high US$4.43, then −25.6% — no filing or news accompanied it.
-- **July 29 – August 12, 2026:** US$2.72 → +24.6% → +29.8% → (August 6) **+47.8% to US$10.05** → all-time high **US$12.25 on August 12** — cumulatively **~+350% in ten sessions on no disclosed news**. The company's own August 7 6-K, signed by the CEO, states it knows of no information explaining the move.
-- **August 17–21, 2026:** **−66.7%, −40.7%, −32.9%** on successive heavy-volume days; intraday US$0.75 on August 20. Peak-to-trough **−92% in six sessions**, again with no accompanying disclosure. Close August 25: US$1.02.
+- **Fact.** A December 2025 model/technology upgrade is disclosed at US$192,735 (MOP 1,545,000) in the FY2025 20-F and at US$701,835 (MOP 5,665,000) in the subsequent interim 6-K. Separately, the related blockchain system is disclosed at a cost of US$212,008 (July 2025), with lifetime blockchain revenue across three periods totaling US$82,079, including zero in H1 FY2026.
+- **Observation.** The two figures for the upgrade differ by approximately 3.7×. The materials reviewed do not contain a reconciliation between them.
+- **Question.** Can the difference between the amounts reported in the respective filings be reconciled, and does it reflect scope changes, timing, currency, or classification differences?
+- **Interpretation.** The difference between the amounts reported in the respective filings is not fully reconciled in the materials reviewed and therefore warrants clarification. Possible explanations — presented only as possibilities — include a change in the scope or phase of the contract between reporting dates, a distinction between an initial and a total contract value, or a classification difference. We do not characterize this as an accounting irregularity.
 
-**Shape, not attribution.** We found **no evidence identifying who traded or why**, and no promotion campaign tied to ZTG. What the record establishes is the *shape*: a sub-US$50M-float China-region micro-cap, a parabolic no-news rise the issuer itself disclaimed, and a near-total retracement inside two weeks — the profile at the center of the current wave of pump-and-dump securities litigation. The two sub-US$1.00 closes since (August 21: US$0.95; August 24: US$0.88) start no Nasdaq clock yet, but a 30-consecutive-day bid-price deficiency is now a live mechanical risk — against a reverse-split authorization the board has held since December.
-
----
-
-# What We Did Not Find (Thesis-Tempering)
-
-**Intellectual honesty — what cuts against the short archetype.** Reported in full because it materially tempers the thesis. This investigation is financial and structural; it is not an allegation of fraud.
-
-- **No insider cash-out at the IPO.** The offering was 100% primary — no selling shareholders, no concurrent resale registration, and **no pre-IPO dividends** (filings affirmatively state none, FY2023–FY2025). The classic pre-IPO extraction arithmetic does not apply here.
-- **No going-concern language** in either the auditor's opinion or management's discussion, despite US$159K of cash at March 31, 2026.
-- **No litigation, SEC enforcement, trading halt, Nasdaq deficiency notice, or law-firm investor alert** naming Zenta/ZTG was located as of August 26, 2026 — though the crash is one week old and filings could still emerge.
-- **No direct promotion evidence** — no named Telegram/WhatsApp/boiler-room campaign, no paid-newsletter trail. The pump characterization above is pattern inference, and is labeled as such.
-- **Receivables were collected** — the 20-F states all four concentration customers' balances had been collected by the report date; accounts receivable actually *fell* in FY2025.
-- **The auditor change was disclosed on time**, with WWC's Exhibit 16.1 letter concurring that there were no disagreements.
+*Sources: Form 20-F (FY2025), intangible-asset notes; Form 6-K (H1 FY2026, August 14, 2026).*
 
 ---
 
-# Catalyst Timeline
+# Corporate Governance & Control
 
-| Date | Event |
-|---|---|
-| Sep 9–10, 2025 | IPO at US$4.00 (Cathay Securities); first-day close US$3.69 (−7.8%) |
-| Oct 8, 2025 | Over-allotment closed (+US$0.9M) |
-| **Oct 24, 2025** | **Auditor WWC, P.C. dismissed six weeks post-IPO**; Malaysia-based WSJ & Partners appointed — no reason stated (6-K Nov 12, 2025) |
-| **Dec 19, 2025** | EGM recap: authorized capital 50M → **1.02B**; CEO block → **Class B @ 50 votes** (~98.3% of votes); **reverse split 2:1–20:1 pre-authorized**, 5-year board discretion (6-K Jan 5, 2026) |
-| Jan 20, 2026 | FY2025 20-F filed: net income US$1.0M, operating cash flow −US$3.66M |
-| Mar 23–24, 2026 | Six insider Forms 3 filed — 6+ months after listing |
-| **Apr 14, 2026** | Ticker changed **ZGM → ZTG**; no reason stated |
-| Aug 7, 2026 | **"No news" 6-K**: company aware of no undisclosed material information behind the "unusual market action… up to and including August 6, 2026" |
-| Aug 12, 2026 | All-time high US$12.25 — ~+350% in ten sessions on no disclosed news |
-| Aug 14, 2026 | H1 FY2026 interims: revenue −40.4%, net loss US$777,940, cash US$159,299 |
-| Aug 17–21, 2026 | −92% in six sessions to an intraday US$0.75; close Aug 25 US$1.02 |
+In December 2025 the Company reorganized its share capital and voting structure. The features below are disclosed and lawful; they are relevant to how future capital-raising, dilution, and governance decisions may be made.
 
-**Forward-looking catalysts**
+**Voting versus economics after the December 2025 recapitalization** (Form 6-K, January 5, 2026): a block of 6,367,680 shares was converted into Class B shares carrying 50 votes each, corresponding to approximately 98% of aggregate voting power on roughly 54% of the economics. Authorized capital was increased to approximately 1.02 billion shares against ~11.8M outstanding.
 
-| Catalyst | Window | Mechanics |
+| Feature (disclosed) | Detail | Investor relevance |
 |---|---|---|
-| Bid-price deficiency | 30 consecutive closes < US$1.00; two so far | Deficiency letter → cure period → the pre-authorized 2:1–20:1 reverse split |
-| Reverse split | Any time to Dec 2030 | Board sole discretion; 1.02B authorized vs 11.8M out; 50:1 dual class makes dilution costless to control |
-| Cash exhaustion | Now | US$159K cash (3/31/26) vs US$1.14M half-year operating outflow; liquidity leans on "related-party support" |
-| Dilutive raise | Any time | No shelf on file yet; any F-3 / 424 filing is the tell |
-| ZentoAI acquisition | Unknown | US$1.02M CEO-side deposit for an unnamed target; a completed related-party deal would be the next disclosure event |
-| Prepaid write-down | FY2026 audit (first full year under new auditor) | US$4.1M of unnamed-counterparty prepaids vs ~US$12M market cap |
-| Litigation / regulatory | Weeks–months | Post-crash securities-suit and regulatory attention typical of the Aug 2026 pattern cohort |
+| Dual-class voting | Class B carries 50 votes per share; the controlling block holds a large majority of votes on a minority of economics | Concentrated voting control; limited minority-shareholder influence over corporate decisions |
+| Authorized capital | Increased to approximately 1.02 billion shares against ~11.8M outstanding | Substantial headroom for future issuance; relevant to potential dilution |
+| Reverse-split authority | 2:1 to 20:1 consolidation authorized at board discretion, valid five years | Provides flexibility to address minimum-bid-price requirements if they arise |
+| Insider Forms 3 | Filed March 2026, several months after listing | Timing is a governance-diligence item |
+| FPI reporting | Files Form 20-F / 6-K; no Form 10-Q; insiders largely exempt from Section 16 Form 4 | Lower interim-reporting frequency than a domestic issuer |
+
+**Practical implications.** The dual-class structure provides the controlling shareholder with substantially greater voting power relative to economic ownership, which is relevant when assessing future capital-raising and corporate-governance decisions. The large authorized-share capacity and the standing reverse-split authority provide flexibility that investors may wish to monitor. None of these features indicates that dilution or a reverse split will occur; they describe the range of actions available to the Company.
+
+*Sources: Form 6-K (January 5, 2026, EGM results); Form 20-F (FY2025) share-capital and governance disclosures; SEC Forms 3 (March 2026).*
 
 ---
 
-# Red-Flag Matrix
+# Auditor Change
 
-Severity reflects this investigation's view of each item's weight; "evidence" denotes how directly the public record supports it.
+The Company changed its independent registered public accounting firm shortly after listing. The sequence below is presented objectively.
 
-| Finding | Category | Severity | Evidence |
+- **Original auditor:** WWC, P.C. (California).
+- **Date of change:** approximately October 24, 2025, about six weeks after the IPO closed (disclosed via Form 6-K on November 12, 2025).
+- **Replacement auditor:** a Malaysia-based firm (WSJ & Partners).
+- **Stated reason:** no specific reason was stated in the disclosure reviewed.
+- **Disagreements:** the filing reviewed indicated no reported disagreements, and the predecessor auditor's Exhibit 16.1 letter concurred that there were no disagreements.
+
+**Context.** A change of auditor is a routine corporate event and is not, by itself, evidence of a problem. It is noted here as a governance-diligence item, particularly given its timing relative to the IPO and the change to a smaller, non-U.S. firm for a cross-border issuer. The available filing indicated no reported disagreement between the Company and the predecessor auditor.
+
+*Sources: Form 6-K (November 12, 2025) and Exhibit 16.1 letter.*
+
+---
+
+# Unusual Share-Price and Trading-Volume Activity
+
+During 2026 the shares experienced an unusually rapid increase followed by a substantial decline over a relatively short period. The chronology and figures below are drawn from third-party market data and the Company's own disclosure.
+
+**Chronology**
+
+- **September 2025 – April 2026.** Following a first-day close of ~US$3.69, the shares drifted to approximately US$1.09 intraday by early April 2026.
+- **June 8–10, 2026.** Trading volume rose sharply (reported ~12.4M shares against typical volumes below 50,000), with an intraday high near US$4.43, followed by a decline. No company filing or news identified in the record accompanied the move.
+- **July 29 – August 12, 2026.** The shares rose from approximately US$2.72 to an intraday high of US$12.25 on August 12 — an increase of roughly 350% over about ten trading sessions — without a corresponding company disclosure identified in the record.
+- **August 7, 2026.** The Company filed a Form 6-K stating it was not aware of any undisclosed material information explaining the unusual market activity.
+- **August 17–21, 2026.** The shares declined on successive sessions (reported daily declines of approximately −66.7%, −40.7%, and −32.9%), reaching an intraday low of US$0.75 on August 20 — a peak-to-trough decline of approximately 92%.
+- **August 25–26, 2026.** The shares closed at approximately US$1.02 (August 25) and US$1.01 (August 26); the two closes on August 21 and 24 were below US$1.00.
+
+| What the public record establishes | What the public record does not establish |
+|---|---|
+| An unusually rapid price increase and subsequent decline; unusually elevated trading volume on specific dates; a 52-week range of US$0.75–US$12.25; and the Company's August 7 statement that it was aware of no undisclosed material information explaining the activity. | Who traded the shares or why; whether any trading was coordinated; whether the market was manipulated; whether any insider participated; or whether any promotional activity caused the movement. No evidence on these points was identified in the sources reviewed. |
+
+**Context, clearly labeled as such.** The combination of a low public float, limited analyst coverage, and a large, rapid price move followed by a near-complete retracement is a pattern that has drawn regulatory and litigation attention across small-capitalization issuers generally. This is context, not a finding about ZTG. No enforcement action, litigation, or promotional campaign naming the Company was identified in the sources reviewed. The two sub-US$1.00 closes do not, by themselves, commence a Nasdaq minimum-bid-price deficiency, but continued closes below US$1.00 could make the minimum-bid-price requirement a relevant consideration; the Company holds a standing reverse-split authorization (see "Corporate Governance & Control").
+
+*Sources: Market data via Yahoo Finance, TradingView, stockanalysis.com (as of August 26, 2026); Form 6-K (August 7, 2026). Intraday figures not independently tick-verified.*
+
+---
+
+# Balanced Evidence — What the Record Does Not Show
+
+Consistent with the objective of this review, the following points cut against a negative reading and are reported in full. Their inclusion reflects that this review is not written toward a predetermined conclusion.
+
+- **No insider selling identified in connection with the IPO.** The offering was 100% primary, with no selling shareholders and no concurrent resale registration identified.
+- **No pre-IPO dividends** identified in the filings reviewed (FY2023–FY2025).
+- **No litigation** located naming the Company in the sources reviewed as of the report date.
+- **No SEC enforcement action** located in the sources reviewed.
+- **No Nasdaq deficiency notice** located as of the report date (though continued sub-US$1.00 closes could make the minimum-bid-price standard relevant).
+- **No direct promotional campaign identified** — no specific paid-promotion, newsletter, or coordinated-messaging trail tied to the Company was located.
+- **Receivables reportedly collected** — the FY2025 20-F states the concentration customers' balances had been collected by the report date, and accounts receivable declined in FY2025.
+- **Auditor change disclosed with no reported disagreement**, supported by the predecessor auditor's Exhibit 16.1 letter.
+
+*Sources: Form 424B4 (September 9, 2025); Form 20-F (FY2025); Form 6-K (November 12, 2025); public-record searches as of the report date.*
+
+---
+
+# Investor Attention Matrix
+
+"Investor attention level" reflects this review's assessment of where additional diligence may be most warranted. It is not a rating of the security and does not imply any conclusion about misconduct.
+
+| Matter | Attention level | Basis | Why it matters |
 |---|---|---|---|
-| ~90% of net proceeds deployed in ~25 days into unnamed-counterparty prepaids | Cash use | **Critical** | Documented (20-F) |
-| Income US$1.0M vs operating cash flow −US$3.66M | Financial | **Critical** | Documented |
-| ~5.75% of equity to unnamed "consultants" pre-effectiveness | Related party / float | **Critical** | Documented (424B4) |
-| 50:1 Class B recap + 1.02B authorized + 5-yr reverse-split authority | Control / capital structure | **Critical** | Documented (6-K) |
-| Growing US$1.02M deposit to CEO-controlled entity, unnamed target | Related party | High | Documented |
-| Four customers = 96% revenue / 100% receivables; one supplier | Business substance | High | Documented |
-| Client contracts predate supplier contracts by six weeks | Revenue quality | High | Documented (exhibits) |
-| Core intangible booked US$192,735 then US$701,835 — unreconciled | Accounting | High | Documented |
-| Auditor dismissed six weeks post-IPO; small offshore replacement | Audit | High | Documented |
-| +350% / −92% no-news round trip; issuer disclaimed knowledge | Market structure | High | Market data + 6-K |
-| Cash US$159K vs US$1.14M half-year operating burn | Liquidity | High | Documented |
-| Ticker change + Forms 3 filed 6+ months late | Disclosure | Medium | Documented |
-| FPI opacity (no 10-Q / Form 4); Cayman minority protections | Disclosure | Medium | Structural |
-| Fits regulator-flagged China/HK small-cap IPO profile | Regulatory | Context | Inference (no action vs ZTG) |
+| Customer concentration (~96% of revenue) | **High** | Documented (20-F) | Revenue dependency and renewal risk |
+| Supplier concentration (single principal supplier) | **High** | Documented (424B4) | Business-continuity risk |
+| Prepaid contractual balance (~US$4.1M) | **High** | Documented (20-F/6-K) | Capital allocation and recoverability |
+| Earnings vs operating cash flow | **High** | Documented (20-F) | Earnings quality and liquidity |
+| Cash position vs operating burn | **High** | Documented (6-K) | Near-term liquidity |
+| Share-price / volume volatility | **High** | Market data | Trading and liquidity risk |
+| Interim revenue decline & net loss (H1 FY2026) | Moderate | Documented (6-K) | Near-term earnings trajectory |
+| Related-party acquisition deposit (~US$1.02M) | Moderate | Documented (20-F) | Related-party exposure; undisclosed target |
+| Dual-class voting & authorized capital | Moderate | Documented (6-K) | Minority influence; future dilution capacity |
+| Reported upgrade-cost difference (3.7×) | Moderate | Documented (20-F/6-K) | Unreconciled disclosure item |
+| Auditor change post-listing | Monitor | SEC filing | Governance diligence; no disagreement reported |
+| Insider Forms 3 timing; FPI reporting cadence | Monitor | Structural | Disclosure frequency and timing |
+
+*Sources: as cited in the corresponding sections above.*
 
 ---
 
-# Rating & Rationale
+# Overall Assessment: Elevated Investor Due-Diligence Risk
 
-**Rating: HIGH RISK — AVOID.** On the structural, governance, cash-use, and disclosure patterns documented above, we assign ZTG our most cautionary rating. The rating is an assessment of risk to capital, not a price target and not a short recommendation — for the mechanical reasons set out below, we consider the equity uninvestable rather than shortable.
+Based on the disclosures reviewed, Zenta Group presents a combination of characteristics that, in our assessment, warrant elevated investor due diligence: a small operating scale, a concentrated revenue base and single principal supplier, significant longer-dated prepaid balances, a limited cash position alongside a softer recent revenue and earnings trajectory, a concentrated dual-class voting structure with substantial authorized-share capacity, and an unusually volatile trading history.
 
-The rating rests on the forward-looking structural setup, not the price that has already fallen: a stock that has closed below US$1.00, a five-year board-discretion reverse-split authorization already in hand, 1.02 billion authorized shares against 11.8M outstanding, a 50:1 dual-class structure that makes dilution costless to control, ~US$4.1M of prepaid contracts running to FY2030 with unnamed counterparties, a growing seven-figure related-party deposit for an unnamed acquisition, US$159K of cash against a US$1.14M half-year operating burn, and an FPI regime that requires no further financials until the next annual report. Each is a documented mechanism by which remaining public capital can be impaired.
+These considerations should be weighed against constructive elements that are also disclosed: the Company reported full-year FY2025 profitability, completed a primary offering with no insider selling, paid no pre-IPO dividends, and — per its filings — collected its concentration receivables. The assessment reflects the combination of open questions rather than any single item.
 
-**Why "Avoid" and not "Sell/Short."** At US$1.02 versus US$12.25 two weeks earlier, ~92% of the collapse is already realized, and any residual short competes with brutal mechanics: a ~4M-share float that has already shown +350% ten-session moves, likely punitive or absent borrow, no options, and a standing reverse-split authority that can reset the share count at any moment under ~98% insider voting control. The actionable output for most participants is therefore **avoidance** — of the equity, of any post-split re-promotion cycle, and of any related-party acquisition re-rating narrative.
+**Important qualification.** The presence of these factors does not, by itself, establish misconduct, misrepresentation, market manipulation, or unlawful conduct. Rather, they identify areas where investors and other market participants may reasonably seek additional information before forming a view. Each factor is individually disclosed and, on its own, may have an ordinary explanation; it is the combination and the open questions that support an elevated-diligence assessment.
 
-**The benign reading, stated in fairness.** A young company that raised a modest primary round, sold no insider shares, paid no pre-IPO dividends, collected its receivables, filed on time, and answered an unexplained spike with a prompt "no news" statement. Concentrated customer/supplier books are common in early-stage B2B intermediation, and nothing in the record ties the company or its insiders to the August trading. The HIGH RISK rating reflects the weight of the structural setup, in our view — not a conclusion that any of these disclosed facts is unlawful.
+*Basis: synthesis of the sections above, each sourced to the Company's SEC filings and third-party market data.*
+
+---
+
+# Key Questions for Management
+
+The following are offered as requests for clarification, not as assertions. They summarize the principal items an investor or counterparty may reasonably wish to raise.
+
+1. Who are the counterparties to the major prepaid contracts, and are any related to the Company or its insiders?
+2. What specific services are covered by those contracts, and over what delivery schedule?
+3. What portion of the ~US$4.1M prepaid balance has been recognized as expense to date?
+4. What is the expected economic return or benefit from these prepaid arrangements?
+5. What is the current status of the proposed acquisition associated with the ZentoAI deposit?
+6. What is the identity of the proposed acquisition target?
+7. What valuation methodology and independent-review process apply to that transaction?
+8. What is the intended funding source for any such acquisition?
+9. What accounts for the increase in customer concentration, and what is the duration of the major customer contracts?
+10. What are the terms of the relationship with the principal supplier, and how substitutable is it?
+11. What is the current status of the blockchain / AI-model investment and its economic contribution?
+12. Can the difference between the US$192,735 and US$701,835 upgrade figures be reconciled?
+13. What were the specific reasons for the change in auditor?
+14. What is management's current liquidity plan given the cash position and operating cash usage?
+15. Does management expect to raise additional capital, and if so, in what form?
+16. How does management intend to address the Nasdaq minimum-bid-price requirement should it become applicable?
+17. Has management identified any explanation for the recent trading and volume activity?
+18. Has the Company engaged any external market adviser or investor-relations firm recently?
+19. What are the Company's plans regarding the large authorized-share capacity?
+20. How does management intend to safeguard minority-shareholder interests under the dual-class structure?
 
 ---
 
 # Conclusion
 
-Applying a forensic checklist to Zenta Group produces a different archetype than the classic insider-exit IPO: here the public's money went **in** — and then, in our view, the record shows it going **out the side doors within weeks**. ~90% of net proceeds were deployed inside ~25 days, overwhelmingly into multi-year prepaid "marketing and consultancy" contracts with counterparties the filings never name, plus a seven-figure good-faith deposit to the CEO's own private entity for an acquisition the filings never describe.
+Zenta Group presents a combination of characteristics that warrant elevated investor diligence, particularly given its small operating scale, concentrated revenue base, significant longer-dated prepaid balances, limited cash position, softer recent interim results, concentrated voting structure, and unusually volatile trading history. Each of these items is disclosed in the Company's own filings, and each may have an ordinary explanation. The Company also reported full-year FY2025 profitability and continues to operate in a growing area of financial technology.
 
-Around that core sit the checklist's familiar accumulation: ~5.75% of the company promised to unnamed consultants on the eve of effectiveness; a revenue base of four PRC-named customers routed through one supplier whose products the company first resold, then bought; client contracts dated before supplier contracts; a 3.7× unreconciled discrepancy in the cost of the core intangible; an auditor swapped six weeks after listing; a 50-vote dual-class recap and five-year reverse-split authority armed 3.5 months after the IPO; and, eleven months in, a +350% / −92% no-news round trip that the issuer itself formally declined to explain.
+At the same time, the public record reviewed does not establish fraud, market manipulation, or unlawful conduct. It does not identify who traded the shares during the August 2026 period, nor does it attribute the price movement to any person or coordinated activity. Material counter-evidence — a primary offering with no insider selling, no pre-IPO dividends, collected receivables, and an auditor change with no reported disagreement — is set out under "Balanced Evidence".
 
-Set against that: no insider selling, no pre-IPO dividends, no litigation, no promotion trail, collected receivables, on-time filings. In our view the record supports the conclusion that **ZTG's public listing has so far functioned as a funding and control structure, not an operating story** — a pattern judgment about disclosed economics, not an allegation of unlawful conduct. The checklist item that would have flagged this pre-IPO, in one line: when a nine-employee company's F-1 discloses that 5.75% of its equity is going to consultants it will not name, for services it cannot specify, the offering's center of gravity is, in our view, self-describing.
+**Bottom line.** Investors and counterparties should approach the Company with heightened due diligence and seek clarification on the matters identified in this report, in particular the prepaid contractual arrangements, the related-party acquisition deposit, revenue concentration and durability, liquidity, and the corporate-governance structure. The purpose of this review is to enable such diligence, not to recommend any action with respect to the security.
 
 ---
 
 # Sources
 
 1. **SEC EDGAR** — Zenta Group Company Limited, CIK 0002011458 (filing index).
-2. **Form 424B4** — IPO prospectus, September 9, 2025 (acc. 0001493152-25-012859): offering mechanics, consultant-share footnotes, supplier/customer disclosure, use of proceeds.
-3. **Form 20-F** — FY2025, filed January 20, 2026 (acc. 0001493152-26-002776): audited financials, Item 14.E use of proceeds, prepaid-expense and related-party deposit notes, customer/supplier concentration, auditor change.
-4. **Form 6-K** — September 11 and October 9, 2025 (IPO closing, over-allotment); November 12, 2025 (auditor change); January 5, 2026 (EGM: 1.02B authorized, Class B 50-vote recap, reverse-split authority); April 14, 2026 (ticker change); August 7, 2026 ("no news"); August 14, 2026 (H1 FY2026 interims).
-5. **Insider Forms 3** — filed March 23–24, 2026.
-6. **Market data** (price, volume, float, short interest, 52-week range): stockanalysis.com, Nasdaq.com, Yahoo Finance, TradingView — as of August 25, 2026.
+2. **Form 424B4** — IPO prospectus (September 9, 2025): offering mechanics, use of proceeds, supplier/customer disclosure, share-transfer footnotes.
+3. **Form 20-F** — FY2025 (year ended September 30, 2025): audited financials, Item 14.E use of proceeds, prepaid-expense and related-party notes, customer/supplier concentration, auditor-change disclosure.
+4. **Form 6-K** — selected: IPO closing (September 11 and October 9, 2025); auditor change (November 12, 2025); December 2025 EGM results including share-capital and voting changes (January 5, 2026); ticker change (April 14, 2026); market-activity statement (August 7, 2026); H1 FY2026 interim results (August 14, 2026).
+5. **SEC Forms 3** — initial statements of beneficial ownership (March 2026).
+6. **Market data** — price, volume, 52-week range, market capitalization, shares outstanding: stockanalysis.com (independently corroborated as of August 26, 2026), Nasdaq, Yahoo Finance, TradingView.
 
-Figures are subject to data-source, rounding, period and currency-translation differences (USD / HKD / MOP / CNY; the company's September fiscal year). Some items are expressly flagged as unverified or "not found" and are presented as open diligence threads, not conclusions. All statements reflect the opinions, analysis, and inferences of the author drawn from public sources believed to be accurate as of August 26, 2026. The author has not independently audited the company, holds no material non-public information, and may be wrong. Readers must conduct their own due diligence and consult appropriately licensed professionals before acting. No fabricated evidence, manipulated images, or anonymous rumors were used in this report. The author undertakes no obligation to update this document.
+Figures are subject to data-source, rounding, period, and currency-translation differences (USD / HKD / MOP / CNY; the Company's September fiscal year). Intraday price points and certain volume figures are drawn from third-party providers and are not independently tick-verified. Items expressly identified as "not found" or "not independently verified" are presented as open diligence threads, not conclusions.
+
+**Disclaimer.** This document is an independent, public-record review prepared for informational, analytical, and educational purposes only, based solely on publicly available information. It is not investment, legal, accounting, or tax advice, and is not an offer, solicitation, or recommendation to buy, sell, hold, or short any security. Nothing in this document should be relied upon as a basis for any investment decision. All statements reflect the author's analysis of public sources believed to be accurate as of the report date, including SEC filings, company disclosures, and third-party market-data providers. The document distinguishes between fact (what a filing or data source discloses), observation (what can be seen by comparing disclosures), question (what an investor may reasonably clarify), and interpretation (the author's assessment, identified as such). Nothing in this document alleges that Zenta Group Company Limited, its officers, its shareholders, or its counterparties engaged in fraud, market manipulation, or any unlawful conduct. Every transaction discussed was disclosed by the Company in its own SEC filings. No evidence was identified in the sources reviewed tying any person to the August 2026 trading activity, and the Company has stated it was aware of no undisclosed material information explaining that activity. Where the record is silent, the absence is stated rather than filled by inference; certain items are expressly identified as unverified. The author has not independently audited the Company, holds no material non-public information, and may be incorrect. Readers must conduct their own due diligence and consult appropriately licensed professionals before acting. The author undertakes no obligation to update this document.
